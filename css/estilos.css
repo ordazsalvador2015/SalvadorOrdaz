@@ -304,7 +304,7 @@ footer {
 			flex-flow: row wrap;
 			}
 }
-@media all and (max-width: 380px) {
+@media all and (max-width: 390px) {
 	.encabezado{
 		width: 100%;
 		background-color: #5b7989;
@@ -319,7 +319,6 @@ footer {
 			text-align: center;
 			}
 		.menuprincipal 	{
-               
                 font-family: 'Dancing Script' cursive;
                 width: 100%;
                 font-size: 20px;
