@@ -5,10 +5,11 @@ body {
 
 }
 
-footer {
+header {
 		width:100%;
 		box-shadow:0px 0px 0px #000;
 		}
+		/* Encabezado de paginas web */
 		.encabezado{
 		width: 100%;
 		background-color: #5b7989;
@@ -16,13 +17,20 @@ footer {
 		border-radius: 12px 12px 0 0;
 		height: 6em;
 		color:white;
+	/* Animacion efecto de pagina */
+		animation-name: miSlideIn;
+		animation-duration: 1s;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
 		}
 			.encabezado h1 {
 			text-shadow: 2px 2px 2px #02010a;
 			float: left;
 			}
  
-
+/* Menu del programa  de las paginas web*/
 		.menuprincipal 	{
                
                 font-family: 'Dancing Script' cursive;
@@ -50,7 +58,7 @@ footer {
                 text-decoration: none;              
             }
  
-
+/* Contenido de la pagina Web */
 		.contenido {
 				margin: 0 auto;
   				width: 900px;
@@ -64,6 +72,8 @@ footer {
 			.contenido div {
   			box-sizing: border-box;
 			}
+
+/* Bloque de la Pagina Web parte Superior */
 			.bloque1 {
 			width: 100%;
 			height: 100%;
@@ -115,6 +125,8 @@ footer {
 			padding-bottom: 5px;
 			
 			}
+
+/* Mover las Imagenes  de Inicio */
 			.img1 , .img2 , .img3 { 
 			width: 100%;
 			height: 45%;
@@ -124,6 +136,7 @@ footer {
 			-webkit-box-shadow: 2px 2px 2px #02010a;
 	 		}
 
+/* Mover las Imagenes de la Pagina Paisajes - Retratos Primera Fila */
 	 		.img11 , .img12 , .img13 { 
 			width: 100%;
 			box-shadow: 2px 2px 2px #02010a;
@@ -131,6 +144,7 @@ footer {
 			-webkit-box-shadow: 2px 2px 2px #02010a;
 	 		}
 
+/* Mover las Imagenes de la Pagina Paisajes  - Retratos  Segunda Fila */
 	 		.img14 , .img15 , .img16 { 
 			width: 100%;
 			box-shadow: 2px 2px 2px #02010a;
@@ -138,6 +152,7 @@ footer {
 			-webkit-box-shadow: 2px 2px 2px #02010a;
 	 		}
 
+/* Mover las Imagenes de la Pagina Inicio parte Abajo */
 	  		#imagenes2 img {
 	 		-moz-transition:all 0.7s ease;
               transition:all 0.7s ease;  
@@ -160,7 +175,7 @@ footer {
 			transform: translate3d(5px,-30px,20px);
 			box-shadow: 2px 	;
 			}
-
+/* Mover Imagenes de la Pagina Paisaje y Retratos */
 			#imagenes11 img {
 	 			-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
 				filter: blur(10px);
@@ -176,6 +191,7 @@ footer {
 				filter: sepia(90%);
 			}
 
+/* Definiciones de Pie de Pagina */
 			.footerpie {
 			width: 100%;
 			display: flex;
@@ -218,6 +234,18 @@ footer {
 			.pie4 p{
 				float: left;
 			}
+
+@-webkit-keyframes miSlideIn {
+	0%{
+		margin-top: 150%;
+		}
+		60%{
+		margin-top: -5%;
+		}
+		100%{
+		margin-top: 0%;
+		}
+		}
 
 @media all and (max-width: 900px) and (min-width:700px) {
 	
